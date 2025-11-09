@@ -1,5 +1,0 @@
-user_input = input('Введите числа через пробел: ')
-numbers_list = list(map(int, user_input.split()))
-numbers_tuple = tuple(numbers_list)
-print(numbers_list)
-print(numbers_tuple)
