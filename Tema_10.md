@@ -33,7 +33,8 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 if __name__ == '__main__':
-    print(fibonacci(100))```
+    print(fibonacci(100))
+```
 
 **Результат:**
 
@@ -64,7 +65,8 @@ def personal_info(name, age):
 if __name__ == '__main__':
     personal_info('Владимир', 38)
     personal_info('Александр', -5)
-    personal_info('Петр', 138, 15, 48, 2)```
+    personal_info('Петр', 138, 15, 48, 2)
+```
 
 **Результат:**
 
